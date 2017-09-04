@@ -1,7 +1,13 @@
-package net.luisalbertogh.jenkins;
+package net.luisalbertogh.jenkins
 
-// Sat hello
-def sayHello(name){
-	echo "Hello " + name
+class Simple {
+    String name
+
+    /**
+     * To string
+     */
+    String toString() {
+        return name
+    }
 }
 
