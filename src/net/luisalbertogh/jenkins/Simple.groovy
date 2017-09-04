@@ -1,6 +1,6 @@
 package net.luisalbertogh.jenkins
 
-class Simple {
+class Simple implements Serializable {
     String name
 
     /**
